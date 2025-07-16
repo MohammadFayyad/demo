@@ -3,7 +3,6 @@ import axios from 'axios';
 import Constants from 'expo-constants';
 
 
-// const API_KEY = '45c8b14ab94677d0dd5adaef8384d70e'; 
 const API_KEY = Constants.expoConfig.extra.EXPO_PUBLIC_TMDB_API_KEY;
 const BASE_URL = 'https://api.themoviedb.org/3';
 export const fetchMovies = createAsyncThunk(
